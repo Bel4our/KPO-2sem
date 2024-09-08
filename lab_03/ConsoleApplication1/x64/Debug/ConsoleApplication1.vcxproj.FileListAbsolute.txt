@@ -1,0 +1,2 @@
+C:\лабы\Наркевич\КПО\lab_01\ConsoleApplication1\x64\Debug\lab_01.exe
+C:\лабы\Наркевич\КПО\lab_03\ConsoleApplication1\x64\Debug\lab_01.exe

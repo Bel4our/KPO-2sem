@@ -1,0 +1,17 @@
+﻿Сборка начата 24.03.2024 19:08:40.
+Уровень детализации журнала: Normal.     1>Проект "C:\лабы\Наркевич\КПО\lab_06\SE_Lab06S\SE_Lab06L\SE_Lab06L.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "x64\Debug\SE_Lab06L.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\SE_Lab06L.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\SE_Lab06L.tlog\unsuccessfulbuild".
+       FinalizeBuildStatus:
+         Файл "x64\Debug\SE_Lab06L.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\SE_Lab06L.tlog\SE_Lab06L.lastbuildstate".
+     1>Сборка проекта "C:\лабы\Наркевич\КПО\lab_06\SE_Lab06S\SE_Lab06L\SE_Lab06L.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.01

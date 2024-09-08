@@ -1,0 +1,35 @@
+﻿Сборка начата 12.03.2024 11:59:05.
+Уровень детализации журнала: Normal.     1>Проект "C:\лабы\Наркевич\КПО\lab_05\SE_Lab05\SE_Lab05\SE_Lab05.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\SE_Lab05.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\лабы\Наркевич\КПО\lab_05\SE_Lab05\x64\Debug\SE_Lab05.exe" /INCREMENTAL /ILK:"x64\Debug\SE_Lab05.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\лабы\Наркевич\КПО\lab_05\SE_Lab05\x64\Debug\SE_Lab05.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\лабы\Наркевич\КПО\lab_05\SE_Lab05\x64\Debug\SE_Lab05.lib" /MACHINE:X64 x64\Debug\Dictionary.obj
+     1>Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct Dictionary::Instance __cdecl Dictionary::Create(char const * const,int)" (?Create@Dictionary@@YA?AUInstance@1@QEBDH@Z) в функции main.
+     1>Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::AddEntry(struct Dictionary::Instance &,struct Dictionary::Entry)" (?AddEntry@Dictionary@@YAXAEAUInstance@1@UEntry@1@@Z) в функции main.
+     1>Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::DelEntry(struct Dictionary::Instance &,int)" (?DelEntry@Dictionary@@YAXAEAUInstance@1@H@Z) в функции main.
+     1>Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::UpdEntry(struct Dictionary::Instance &,int,struct Dictionary::Entry)" (?UpdEntry@Dictionary@@YAXAEAUInstance@1@HUEntry@1@@Z) в функции main.
+     1>Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct Dictionary::Entry __cdecl Dictionary::GetEntry(struct Dictionary::Instance,int)" (?GetEntry@Dictionary@@YA?AUEntry@1@UInstance@1@H@Z) в функции main.
+     1>Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::Print(struct Dictionary::Instance)" (?Print@Dictionary@@YAXUInstance@1@@Z) в функции main.
+     1>Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::Delete(struct Dictionary::Instance &)" (?Delete@Dictionary@@YAXAEAUInstance@1@@Z) в функции main.
+     1>C:\лабы\Наркевич\КПО\lab_05\SE_Lab05\x64\Debug\SE_Lab05.exe : fatal error LNK1120: неразрешенных внешних элементов: 7
+     1>Сборка проекта "C:\лабы\Наркевич\КПО\lab_05\SE_Lab05\SE_Lab05\SE_Lab05.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\лабы\Наркевич\КПО\lab_05\SE_Lab05\SE_Lab05\SE_Lab05.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct Dictionary::Instance __cdecl Dictionary::Create(char const * const,int)" (?Create@Dictionary@@YA?AUInstance@1@QEBDH@Z) в функции main.
+         Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::AddEntry(struct Dictionary::Instance &,struct Dictionary::Entry)" (?AddEntry@Dictionary@@YAXAEAUInstance@1@UEntry@1@@Z) в функции main.
+         Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::DelEntry(struct Dictionary::Instance &,int)" (?DelEntry@Dictionary@@YAXAEAUInstance@1@H@Z) в функции main.
+         Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::UpdEntry(struct Dictionary::Instance &,int,struct Dictionary::Entry)" (?UpdEntry@Dictionary@@YAXAEAUInstance@1@HUEntry@1@@Z) в функции main.
+         Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct Dictionary::Entry __cdecl Dictionary::GetEntry(struct Dictionary::Instance,int)" (?GetEntry@Dictionary@@YA?AUEntry@1@UInstance@1@H@Z) в функции main.
+         Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::Print(struct Dictionary::Instance)" (?Print@Dictionary@@YAXUInstance@1@@Z) в функции main.
+         Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::Delete(struct Dictionary::Instance &)" (?Delete@Dictionary@@YAXAEAUInstance@1@@Z) в функции main.
+         C:\лабы\Наркевич\КПО\lab_05\SE_Lab05\x64\Debug\SE_Lab05.exe : fatal error LNK1120: неразрешенных внешних элементов: 7
+
+    Предупреждений: 0
+    Ошибок: 8
+
+Прошло времени 00:00:00.12
